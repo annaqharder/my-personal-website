@@ -25,9 +25,6 @@ body {
     color: black;
  }
 
- .navigation a:hover {
-
- }
 h1 {
     text-align: left; 
     font-size: 200px;
@@ -44,38 +41,42 @@ h1 {
     align-items: center;
 }
 
-
 #photo-of-me {
-    background-color: blue;
+    background-color:bisque;
     width: 40%; 
     float: left; 
     padding-bottom: 20px; 
 }
 
 #about-summary {
-    background-color: purple;
+    background-color: bisque;
     width: 60%;
     float: left;  
-    padding-bottom: 700px;
+    padding-bottom: 800px;
     text-align: center;
 }
 
 #contact-content {
     font-size: 50px;
 }
+.simple {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
 
 .email {
     font-size: 20px;
 }
+
 .email a:link {
     color: black; 
 }
 
-.on-the-internet {
+.ontheinternet {
     font-size: 20px;
 }
 
-.on-the-internet a:link { 
+.ontheinternet a:link { 
     /* figure out how to turn links black  */
     color: black; 
 }

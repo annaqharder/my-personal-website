@@ -1,3 +1,18 @@
+.navigation ul {
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0; 
+}
+
+.navigation li {
+    display: block; 
+    float: right; 
+    padding: 10px;
+    color: black; 
+}
+
+
 body {
     background: bisque;
 }
@@ -5,5 +20,23 @@ body {
 h1 {
     text-align: left; 
     font-size: 200px;
+}
+
+.header {
+    font-size: 50px;
+    text-align: left;
+}
+
+#headshot {
+    height: auto;
+    width: 100%;
+    align-items: left; 
+    margin: 0 auto; 
+
+}
+
+#contact-content {
+    font-size: 50px;
+
 }
 

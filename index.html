@@ -5,18 +5,20 @@
     <title>Anna Harder | Personal Website</title>
   </head>
   <body>
-    <nav class="navigation">
-      <ul>
-        <li> <a href="#contact">contact</a></li>
-        <li> <a href="#resume">resume</a></li>
-        <li> <a href="#projects">projects</a></li>
-        <li> <a href="#skills">skills</a></li>
-        <li> <a href="#about">about</a></li>
-        <li> <a href="#home">home</a> </li>
-      </ul>
-    </nav>
+    <div class="one">
+      <nav class="navigation">
+        <ul>
+          <li> <a href="#contact">contact</a></li>
+          <li> <a href="#resume">resume</a></li>
+          <li> <a href="#projects">projects</a></li>
+          <li> <a href="#skills">skills</a></li>
+          <li> <a href="#about">about</a></li>
+          <li> <a href="#home">home</a> </li>
+        </ul>
+      </nav>
+    </div>
 
-  <div>
+  <div class="two">
     <section id="home">
       <header>
         <h1>hello!</h1>
@@ -27,15 +29,18 @@
     </section>
   </div>
 
-  <div>
     <section id="about">
       <h1>about</h1>
-      <img id="headshot" src="images/IMG_0701.jpeg"> 
-      <p> I am dedicated software engineering student who is passionate about finding and creating efficent and effective solutions to everyday problems through accessible, functional technology. I am currently enrolled in Flatiron School's software engineering immersive with intended completion date of February 2023.</p>
+      <div id="photo-of-me">
+        <img id="headshot" src="images/IMG_0701.jpeg">
+      </div>
+      <div id="about-summary">
+        <p> I am dedicated software engineering student who is passionate about finding and creating efficent and effective solutions to everyday problems through accessible, functional technology. I am currently enrolled in Flatiron School's software engineering immersive with intended completion date of February 2023.</p>
+      </div>
     </section>
-  </div>
+ 
 
-  <div>
+  <div class="four">
     <section id="skills">
       <h1>skills</h1>
       <header>technical</header>
@@ -59,7 +64,7 @@
     </section>
   </div>
 
-  <div>
+  <div class="five">
     <section id="projects">
       <h1>projects</h1>
         <p>phase 1 | front-end development</p> <!--hyperlink to new page about each project-->
@@ -70,22 +75,24 @@
     </section>
   </div>
 
-  <div>
+  <div class="six">
     <section id="resume">
       <h1>resume</h1>
       <!-- preview of resume which links to full page popout of resume-->
     </section>
   </div>
 
-  <div>
+  <div class="seven">
     <section id="contact"> 
       <h1 class="contact">contact</h1>
         <p id="contact-content"> to keep things simple: </p>
-        <p class="email"> email: annaqharder@gmail.com </p> <!-- figure how to click email and automatically create new email-->
-        <p> on the internet: 
-          <a class="LinkedIn" href="https://www.linkedin.com/in/anna-harder-bb4862136/">LinkedIn</a> | 
-          <a class="GitHub" href="https://github.com/annaqharder">GitHub</a>
-      </p>
+        <p class="email"> email:
+          <a href="mailto:annaqharder@gmail.com">annaqharder@gmail.com</a>
+        </p>
+        <p class="on-the-internet"> on the internet: 
+          <a href="https://www.linkedin.com/in/anna-harder-bb4862136/" target="blank">LinkedIn</a> | 
+          <a href="https://github.com/annaqharder" target="blank">GitHub</a>
+        </p>
     </section>
   </div>
 

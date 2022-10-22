@@ -68,11 +68,13 @@ p {
 .me {
     font-size: 50px;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 0px;
 }
 
 h1 {
+    font-family: Ubuntu, sans-serif;
     text-align: left; 
     font-size: 200px;
     margin-top: 40px; 
@@ -80,9 +82,8 @@ h1 {
     padding-left: 20px;
 }
 
-
 #home {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 #headshot {

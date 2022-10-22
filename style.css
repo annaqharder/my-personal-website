@@ -61,12 +61,14 @@ p {
     letter-spacing: 2px;
     text-align: center;
     padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.header {
+.me {
     font-size: 50px;
     text-align: center;
     padding-left: 50px;
+    margin-top: 0px;
 }
 
 h1 {

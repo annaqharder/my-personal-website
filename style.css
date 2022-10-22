@@ -9,6 +9,7 @@ body {
 .navigation ul {
     letter-spacing: 2px;
     font-size: 20px;
+    /* font-weight: bold; */
     margin: 0;
     padding: 20px;
 }
@@ -55,6 +56,13 @@ p {
     color: black;
  }
 
+.hello {
+    font-size: 500px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
 h1 {
     text-align: left; 
     font-size: 200px;
@@ -65,12 +73,12 @@ h1 {
 
 .header {
     font-size: 50px;
-    text-align: left;
+    text-align: center;
     padding-left: 50px;
 }
 
 #home {
-    padding-bottom: 250px;
+    padding-bottom: 100px;
 }
 
 #headshot {
@@ -109,14 +117,6 @@ h1 {
 .resume {
     padding-bottom: 300px; 
 }
-
-
-/* #contact {
-    background-image: "images/background1.jpeg";
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 
 .contact-info {
     background-color: #EAB003;
@@ -169,7 +169,6 @@ header {
 
 .technical {
     background-color: #EAB003;
-    opacity: 90%;
     border-color: black;
     border-style: solid;
     float:left; 
@@ -203,4 +202,11 @@ header {
     padding-bottom: 115px;
     margin: 25px 25px;
     width: 27%;
+}
+
+footer {
+    text-align: right;
+    padding-right: 20px; 
+    letter-spacing: 1.5px;
+    /* background-image: url("images/background1.jpeg"); */
 }

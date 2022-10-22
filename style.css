@@ -61,7 +61,8 @@ p {
     letter-spacing: 2px;
     text-align: center;
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .me {

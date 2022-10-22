@@ -2,7 +2,8 @@ body {
     background-color: #f2c7c5;  
     display: flex; 
     flex-direction: column;
-    margin: 25px; 
+    margin: 0px; 
+    /* background-image: url("images/background1.jpeg"); */
 }
 
 .navigation ul {
@@ -16,11 +17,13 @@ body {
     display: block; 
     float: right; 
     padding: 10px;
-    background-color: #EAB003;
+    background-color: #f2c7c5;
 }
 
 #navbar {
-    background-color: #EAB003;
+    /* background-color: #f2c7c5; */
+    background-image: url("images/background1.jpeg");
+    padding-top: 30x;
 }
 
 .sticky {
@@ -57,15 +60,17 @@ h1 {
     font-size: 200px;
     margin-top: 40px; 
     margin-bottom: 25px;
+    padding-left: 20px;
 }
 
 .header {
     font-size: 50px;
     text-align: left;
+    padding-left: 50px;
 }
 
 #home {
-    padding-bottom: 250px; 
+    padding-bottom: 250px;
 }
 
 #headshot {
@@ -111,6 +116,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 } */
+
 
 .contact-info {
     background-color: #EAB003;

@@ -1,5 +1,7 @@
 body {
     background-color: bisque; 
+    display: flex; 
+    flex-direction: column;
 }
 
 .navigation ul {
@@ -15,19 +17,25 @@ body {
     padding: 10px;
 }
 
+a {
+    color: black
+}
+
  .navigation a:link {
     text-decoration: none;
     color: black; 
  }
- 
- .navigation a:visited {
-    text-decoration: none;
+
+ .navigation a:hover {
+    text-decoration: underline;
     color: black;
  }
 
 h1 {
     text-align: left; 
     font-size: 200px;
+    margin-top: 0px; 
+    margin-bottom: 50px;
 }
 
 .header {
@@ -36,29 +44,37 @@ h1 {
 }
 
 #headshot {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
     align-items: center;
 }
 
 #photo-of-me {
-    background-color:bisque;
+    background-color: bisque;
     width: 40%; 
     float: left; 
-    padding-bottom: 20px; 
+    padding-bottom: 0; 
 }
 
-#about-summary {
+#summary {
     background-color: bisque;
-    width: 60%;
-    float: left;  
-    padding-bottom: 800px;
+    width: 60%; 
+    padding-bottom: 500px;
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#summary p {
+    font-size: 20px; 
+    letter-spacing: 1.5px;
+    vertical-align: middle;
 }
 
 #contact-content {
     font-size: 50px;
 }
+
 .simple {
     font-size: 50px;
     letter-spacing: 2px;
@@ -67,16 +83,26 @@ h1 {
 .email {
     font-size: 20px;
 }
-
 .email a:link {
+    text-decoration: none;
     color: black; 
+}
+
+.email a:hover{
+    color: black; 
+    text-decoration: underline; 
 }
 
 .ontheinternet {
     font-size: 20px;
 }
 
-.ontheinternet a:link { 
-    /* figure out how to turn links black  */
+.ontheinternet a:link {
+    text-decoration: none;
     color: black; 
+}
+
+.ontheinternet p a:hover { 
+    color: black; 
+    text-decoration: underline;
 }
